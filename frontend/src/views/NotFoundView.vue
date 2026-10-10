@@ -1,0 +1,2 @@
+<template><div class="not-found"><div><span>404</span><h1>页面未找到</h1><p>当前地址不存在或您没有访问权限。</p><el-button type="primary" @click="$router.push('/dashboard')">返回全局态势</el-button></div></div></template>
+<style scoped>.not-found{min-height:100vh;display:grid;place-items:center;text-align:center;background:#f3f7f5}.not-found span{font-size:100px;font-weight:900;color:#1f6b4f;opacity:.18}.not-found h1{color:#18362b;margin:-25px 0 8px}.not-found p{color:#83938d;margin-bottom:22px}</style>
